@@ -6,7 +6,7 @@ export default function Index() {
   return (
     <>
       <section className='d-flex flex-column' style={{ height: '100vh' }}>
-        <div className="container col-md-6 flex-grow-1">
+        <div className="container col-xl-9 flex-grow-1">
           <UsersList />
         </div>
         <footer className='w-100 py-3 bg-light'>
