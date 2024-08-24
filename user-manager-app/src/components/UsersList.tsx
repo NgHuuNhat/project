@@ -81,7 +81,8 @@ export default function UsersList() {
   };
 
   const filteredUsers = users.filter(user =>
-    user.username.toLowerCase().includes(searchUser.toLowerCase())
+    user.username.toLowerCase().includes(searchUser.toLowerCase()) ||
+    user.phone.toLowerCase().includes(searchUser.toLowerCase())
   );
 
   return (

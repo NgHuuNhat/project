@@ -33,12 +33,12 @@ export default function User(props: UserProps) {
         <div className='ms-2'>
           {user.avatar ? (
             <Avatar
-              size="large"
+              size={64}
               src={user.avatar}
             />
           ) : (
             <Avatar
-              size="large"
+            size={64}
               icon={<UserOutlined />}
             />
           )}
